@@ -1,0 +1,35 @@
+#1.
+sum=0
+for i in range(1,101):
+    sum=sum+i
+print('1-100之和：',sum)
+#2.
+for i in range(1,101):
+    if i%2!=0:
+        print(i,end=" ")
+#3.
+string="我喜欢数据科学导论"
+print(chr(0x2605)*(len(string)+2))
+print(chr(0x2605)+string+chr(0x2605))
+print(chr(0x2605)*(len(string)+2))
+#4.
+from math import pow
+n=eval(input('请输入：'))
+result = pow(n,1/3)
+print(result)
+#5.
+x=eval(input('请输入第一个数字：'))
+y=eval(input('请输入第二个数字：'))
+z=eval(input('请输入第三个数字：'))
+list=[x,y,z]
+print(sorted(list))
+#6.
+w=eval(input('请输入第一个数字：'))
+x=eval(input('请输入第二个数字：'))
+y=eval(input('请输入第三个数字：'))
+z=eval(input('请输入第四个数字：'))
+list=[w,x,y,z]
+list1=sorted(list)
+list1.reverse()
+print(list1)
+#7.
